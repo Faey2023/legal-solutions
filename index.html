@@ -32,7 +32,7 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              col_grey: "#F3F3F3",
               col_brown: "#B68C5A",
             },
           },
@@ -143,7 +143,7 @@
         <h3 class="text-4xl font-extrabold text-[#414040] mb-6">
           Frequently Asked Questions
         </h3>
-        <p class="mb-16">
+        <p class="mb-16 text-base font-normal text-[#707070]">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have <br />
           suffered alteration in some form, by injected humour.
@@ -215,6 +215,97 @@
           <!-- faq img  -->
           <div class="flex-1 w-[570px]">
             <img src="images/faq.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- contact us section  -->
+      <section class="mt-28 text-center">
+        <h3 class="text-4xl font-extrabold text-[#414040] mb-6">
+          Contact With Us
+        </h3>
+        <p class="text-base font-normal text-[#707070] mb-16">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have <br />
+          suffered alteration in some form, by injected humour.
+        </p>
+        <div class="flex flex-col lg:flex-row">
+          <!-- cards  -->
+          <div class="flex-1 grid grid-cols-1 lg:grid-cols-2 bg-col_grey">
+            <!-- card-1  -->
+            <div
+              class="bg-col_grey border-[#CFCFCF] border-b-2 lg:border-b-2 border-r-2"
+            >
+              <div class="flex items-center justify-center pt-16">
+                <img src="images/location.png" alt="" />
+              </div>
+              <h4 class="text-2xl font-extrabold text-[#414040]">Address</h4>
+              <p class="text-base font-normal text-[#707070]">
+                A108 Adam Street, <br />
+                New York, NY 535022
+              </p>
+            </div>
+            <!-- card-2  -->
+            <div class="bg-col_grey border-[#CFCFCF] border-b-2 lg:border-b-2">
+              <div class="flex items-center justify-center pt-16">
+                <img src="images/call.png" alt="" />
+              </div>
+              <h4 class="text-2xl font-extrabold text-[#414040]">Call Us</h4>
+              <p class="text-base font-normal text-[#707070]">
+                +88 01750 00 00 00 <br />
+                +88 01750 00 00 00
+              </p>
+            </div>
+            <!-- card-3  -->
+            <div class="bg-col_grey border-[#CFCFCF] border-b-2 lg:border-r-2">
+              <div class="flex items-center justify-center pt-16">
+                <img src="images/email.png" alt="" />
+              </div>
+              <h4 class="text-2xl font-extrabold text-[#414040]">Email Us</h4>
+              <p class="text-base font-normal text-[#707070]">
+                info@gmail.com <br />
+                info@gmail.com
+              </p>
+            </div>
+            <!-- card-4  -->
+            <div class="bg-col_grey">
+              <div class="flex items-center justify-center pt-16">
+                <img src="images/time.png" alt="" />
+              </div>
+              <h4 class="text-2xl font-extrabold text-[#414040]">
+                Working Hours
+              </h4>
+              <p class="text-base font-normal text-[#707070]">
+                Mon-Fri: 9AM to 5PM <br />
+                Sunday: 9AM to 1 PM
+              </p>
+            </div>
+          </div>
+          <!-- inputs  -->
+          <div class="flex-1 space-y-6 mt-5">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="input w-full max-w-xl bg-col_grey"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input w-full max-w-xl bg-col_grey"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input w-full max-w-xl bg-col_grey"
+            />
+            <input
+              type="text"
+              placeholder="Type here"
+              class="input w-full max-w-xl bg-col_grey"
+            />
+            <br />
+            <button class="input w-full max-w-xl bg-col_brown text-[#FFF]">
+              Send Message
+            </button>
           </div>
         </div>
       </section>
